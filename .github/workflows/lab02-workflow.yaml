@@ -6,7 +6,6 @@ on:
             - main
             
 jobs:
-    # You can use any name for this, but ensure that it make sense and easy to understand
     unittest: 
         name: Unit Test
         runs-on: ubuntu-latest
