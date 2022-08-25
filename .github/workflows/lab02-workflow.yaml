@@ -18,8 +18,7 @@ jobs:
                 go-version-file: ./src/go.mod
             - name: Run Unit Test
               working-directory: ./src
-              run: go test ./...
-   
+              run: go test ./... 
     code-coverage:
         name: Code Coverage
         runs-on: ubuntu-latest
