@@ -19,6 +19,7 @@ jobs:
             - name: Run Unit Test
               working-directory: ./src
               run: go test ./...
+    
     code-coverage:
         name: Code Coverage
         runs-on: ubuntu-latest
