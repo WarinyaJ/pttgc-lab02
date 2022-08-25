@@ -10,9 +10,9 @@ jobs:
         name: Unit Test
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3 #Use checkout action to download the source code to run unittest
+            - uses: actions/checkout@v3 
               name: Checkout
-            - uses: actions/setup-go@v3 #Setup golang environment for runnint unittest
+            - uses: actions/setup-go@v3 
               name: Setup Go environment
               with:
                 go-version-file: ./src/go.mod
